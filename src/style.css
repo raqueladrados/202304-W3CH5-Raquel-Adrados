@@ -4,6 +4,7 @@
 
 html,
 body {
+  background-image: url('background.png');
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 }
 
 .main-title {
+  color: white;
   text-align: center;
 }
 
