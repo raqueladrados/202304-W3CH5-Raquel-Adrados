@@ -11,6 +11,7 @@ export class Header extends Component {
   createTemplate() {
     return `<header class="main-header">
       <h1 class="main-title">${this.title}</h1>
+      <img class="image-brand" src="/pokemon.png" alt="Pokemon brand with pokedex in background" width:200px height=200px
     </header>`;
   }
 }

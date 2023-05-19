@@ -1,7 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+}
+
 header {
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.image-brand {
+  border-radius: 10px;
+
+  width: 150px;
+  height: auto;
 }
 
 footer {
   color: gray;
+  text-align: center;
 }
