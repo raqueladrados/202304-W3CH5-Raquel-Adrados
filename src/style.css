@@ -4,6 +4,7 @@
 
 html,
 body {
+  font-family: 'Pokemon Solid', sans-serif;
   background-image: url('background.png');
 }
 
