@@ -11,7 +11,7 @@ export class Footer extends Component {
 
   createTemplate() {
     return `
-    <footer>
+    <footer class="brand">
       <address>${this.brand}</address>
     </footer>
     `;
