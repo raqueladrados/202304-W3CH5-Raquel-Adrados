@@ -8,6 +8,7 @@ export class PokemonRepository {
 
   async getAll() {
     const response = await fetch(this.url).then((response) => response.json);
+    console.log(response);
     return response;
   }
 
