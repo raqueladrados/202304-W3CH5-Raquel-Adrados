@@ -1,5 +1,9 @@
-export interface Pokemon {
-  name: string;
-  picture: string;
-  url: string;
+export interface PokemonList {
+  count: number;
+  next: string;
+  previous: string;
+  results: {
+    name: string;
+    url: string;
+  };
 }

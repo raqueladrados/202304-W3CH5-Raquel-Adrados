@@ -1,4 +1,4 @@
-import { Pokemon } from '../models/pokemon';
+import { PokemonList } from '../models/pokemon';
 
 export class PokemonRepository {
   url: string;
@@ -21,7 +21,7 @@ export class PokemonRepository {
     return response.json;
   }
 
-  async update(pokemon: Partial<Pokemon>) {
+  async update(pokemon: Partial<PokemonList>) {
     const response = await fetch(this.url, {
       method: 'PATCH',
       body: JSON.stringify(pokemon),
